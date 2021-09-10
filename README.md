@@ -31,6 +31,7 @@ The `is_compound` function walks through a word left to right, walking down the 
 ## Notes:
 1. For data input I decided to create a file from the words in the given url and push that to the repo.
  _I built the ability for the program to take the gist url as input, but left it commented out because the I felt the requirements were ambiguous in this regard, and reading from the file makes the program simpler._
+ _Additionally, if you attempt to run the program on a computer without the `requests` module, you will get a 'module not found' error._
 
 2. Prior to taking on this project, I didn't know the trie data structure existed. A quick google search yielded the the best data structure for this problem, and I used the first ~13 minutes of this video as a to get me started in creating the initial structure. The video is not specific to this problem, and the solution was created from scratch without further assistance.
     > https://www.youtube.com/watch?v=hjUJFjcrbR4
