@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 ''' This file contains the class Trie
-    The script below takes a filename for a file with a list of words,
+    This program takes a list of words from a file,
     prints the number of words that are constructed wholly from other words,
     and finally prints the longest compound word.
 '''
 
 import sys
-import requests
-import json
+# Unnecessary because this iteration is importing word list from file
+#import requests
+#import json
 
 
 class Trie:
